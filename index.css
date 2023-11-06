@@ -1,8 +1,12 @@
 body{
     display: flex;
     flex-direction: column;
+
 }
-img {
+.kot {
+    background-image: url(./kot_1.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
     width: 250px;
     height: 250px;
     margin: 0 auto;
@@ -28,8 +32,4 @@ h1{
     margin: 0 auto;
     margin-top: 50px;
     padding: 0 15px;
-}
-button:hover{
-    background-color: #c0b7ec;
-    color:aliceblue;
 }
